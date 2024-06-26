@@ -1,0 +1,124 @@
+/* Global Styles */
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+/* Content Area */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Travel Cards */
+
+.travel-card {
+  flex: 1 0 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.travel-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.travel-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.travel-card p {
+  line-height: 1.5;
+}
+
+.travel-card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none; /* Redundant from global styles */
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.termos {
+  text-align: right;
+}
